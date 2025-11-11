@@ -3,4 +3,4 @@ project(enigma)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(enigma main.cpp sender.cpp receiver.cpp)
+add_executable(enigma main.cpp encrypt.cpp decrypt.cpp)
